@@ -4,6 +4,7 @@ import Description from './Description'
 import ProductTab from './ProductTab'
 import Image from './Image'
 
+
 // This is not right way to declare Componant in react you can just create another jsx file to create Compant 
 // function Title() {
 //   return <h1>I am Title</h1>
@@ -14,6 +15,8 @@ import Image from './Image'
 // }
 
 function App() {
+
+ 
   return (
     <>
       <Image
@@ -30,9 +33,11 @@ function App() {
 
       <Image
         src="https://i.redd.it/i-asked-chatgpt-to-make-a-cute-dog-and-then-make-him-even-v0-rh6xs23x6m2c1.jpg?width=768&format=pjpg&auto=webp&s=e44200f03de3be830f7d34719e7861b4b117380a"
-         width="300px"
+        width="300px"
         height="200px"
       />
+
+
 
 
     </>
