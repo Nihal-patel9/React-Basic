@@ -3,6 +3,7 @@ import Title from './Title'
 import Description from './Description'
 import ProductTab from './ProductTab'
 import Image from './Image'
+import MsgBox from './MsgBox'
 
 
 // This is not right way to declare Componant in react you can just create another jsx file to create Compant 
@@ -19,6 +20,11 @@ function App() {
  
   return (
     <>
+      
+      <MsgBox userName="Nihal" textColor="pink" />
+      <MsgBox userName="React" textColor="Aqua" />
+      <MsgBox userName="Props" textColor="yellow" />
+
       <Image
         src="https://i.pinimg.com/550x/40/07/25/4007253b2d7211bdfa1f72ec026b8b69.jpg"
         width="300px"
@@ -41,7 +47,7 @@ function App() {
 
 
     </>
-  )
+  );
 }
 
 export default App
